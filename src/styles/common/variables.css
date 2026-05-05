@@ -1,0 +1,179 @@
+:root{
+
+  /* font */
+  --h1: 700 40px/140% 'Pretendard', sans-serif;
+  --h1-1: 500 40px/140% 'Pretendard', sans-serif;
+
+  --h2: 700 34px/140% 'Pretendard', sans-serif;
+  --h2-1: 500 34px/140% 'Pretendard', sans-serif;
+
+  --h3: 700 30px/140% 'Pretendard', sans-serif;
+  --h3-1: 500 30px/140% 'Pretendard', sans-serif;
+
+  --h4: 700 26px/140% 'Pretendard', sans-serif;
+  --h4-1: 500 26px/140% 'Pretendard', sans-serif;
+  --h4-2: 500 25px/140% 'Pretendard', sans-serif;
+
+  --h5: 700 22px/140% 'Pretendard', sans-serif;
+  --h5-1: 500 22px/140% 'Pretendard', sans-serif;
+
+
+  --p1: 700 20px/140% 'Pretendard', sans-serif;
+  --p1-1: 500 20px/140% 'Pretendard', sans-serif;
+
+  --p2: 700 18px/140% 'Pretendard', sans-serif;
+  --p2-1: 500 18px/140% 'Pretendard', sans-serif;
+
+  --p17: 700 17px/140% 'Pretendard', sans-serif;
+
+  --p3: 700 16px/140% 'Pretendard', sans-serif;
+  --p3-1: 500 16px/140% 'Pretendard', sans-serif;
+  --p3-1-150: 700 16px/100% 'Pretendard', sans-serif;
+
+  --p4: 700 15px/140% 'Pretendard', sans-serif;
+  --p4-1: 500 15px/140% 'Pretendard', sans-serif;
+  --p4-1-150: 500 15px/150% 'Pretendard', sans-serif;
+
+
+
+  --body1: 700 14px/140% 'Pretendard', sans-serif;
+  --body1-1: 500 14px/140% 'Pretendard', sans-serif;
+  --body1-2: 400 14px/140% 'Pretendard', sans-serif;
+  --body1-2-150: 400 15px/140% 'Pretendard', sans-serif;
+
+  --body2: 700 13px/140% 'Pretendard', sans-serif;
+  --body2-1: 500 13px/140% 'Pretendard', sans-serif;
+  --body2-2: 400 13px/140% 'Pretendard', sans-serif;
+
+  --body3: 700 12px/140% 'Pretendard', sans-serif;
+  --body3-1: 500 12px/140% 'Pretendard', sans-serif;
+  --body3-2: 400 12px/140% 'Pretendard', sans-serif;
+  --body3-3: 400 12px/136% 'Pretendard', sans-serif;
+
+
+  --caption1: 500 11px/140% 'Pretendard', sans-serif;
+  --caption1-1: 500 14px/100% 'Pretendard', sans-serif;
+  --caption2: 500 10px/140% 'Pretendard', sans-serif;
+  --caption2-1: 500 10px/140% 'Pretendard', sans-serif;
+
+
+  --tiny1: 500 9px/140% 'Pretendard', sans-serif;
+
+  --tiny2: 500 8px/140% 'Pretendard', sans-serif;
+
+  --tiny2-500-8225: 500 8.225px/140% 'Noto Sans KR';
+
+
+
+  --40-label-Bold: 700 40px/100% 'Pretendard', sans-serif;
+  --40-label-Medium: 500 40px/100% 'Pretendard', sans-serif;
+
+  --34-label-Bold: 700 34px/100% 'Pretendard', sans-serif;
+  --34-label-Medium: 500 34px/100% 'Pretendard', sans-serif;
+
+  --30-label-Bold: 700 30px/100% 'Pretendard', sans-serif;
+  --30-label-Medium: 500 30px/100% 'Pretendard', sans-serif;
+
+  --26-label-Bold: 700 26px/100% 'Pretendard', sans-serif;
+  --26-label-Semibold: 600 26px/100% 'Pretendard', sans-serif;
+  --26-label-Medium: 500 26px/100% 'Pretendard', sans-serif;
+
+  --22-label-Semibold: 600 22px/100% 'Pretendard', sans-serif;
+  --22-label-Medium: 500 22px/100% 'Pretendard', sans-serif;
+
+
+  --20-label-Bold: 700 20px/100% 'Pretendard', sans-serif;
+  --20-label-Medium: 500 20px/100% 'Pretendard', sans-serif;
+
+  --19-label-Bold: 600 19px/100% 'Pretendard', sans-serif;
+
+  --18-label-Bold: 700 18px/100% 'Pretendard', sans-serif;
+  --18-label-Medium: 500 18px/100% 'Pretendard', sans-serif;
+
+  --16-label-Bold: 700 16px/100% 'Pretendard', sans-serif;
+  --16-label-Medium: 500 16px/100% 'Pretendard', sans-serif;  
+  
+  --15-label-Bold: 700 15px/100% 'Pretendard', sans-serif;
+  --15-label-Medium: 500 15px/100% 'Pretendard', sans-serif;
+
+  --14-label-Bold: 700 14px/100% 'Pretendard', sans-serif;
+  --14-label-Medium: 500 14px/100% 'Pretendard', sans-serif;
+  --14-label-Regular: 400 14px/100% 'Pretendard', sans-serif;
+
+  --13-label-Bold: 700 13px/100% 'Pretendard', sans-serif;
+  --13-label-Medium: 500 13px/100% 'Pretendard', sans-serif;
+  --13-label-Regular: 400 13px/100% 'Pretendard', sans-serif;
+
+  --12-label-Bold: 700 12px/100% 'Pretendard', sans-serif;
+  --12-label-Medium: 500 12px/100% 'Pretendard', sans-serif;
+  --12-label-Regular: 400 12px/100% 'Pretendard', sans-serif;
+
+  --11-label-Medium: 500 11px/100% 'Pretendard', sans-serif;
+  --12-label-Semibold: 600 12px/100% 'Pretendard', sans-serif;
+
+
+  --10-label-Bold: 700 10px/100% 'Pretendard', sans-serif;
+  --10-label-Medium: 500 10px/100% 'Pretendard', sans-serif;
+
+  --9-label-Medium: 500 9px/100% 'Pretendard', sans-serif;
+
+  --8-label-Medium: 500 8px/100% 'Pretendard', sans-serif;
+
+
+
+  /* color */
+      /* White & Black Colors */
+      --white: #fff;
+      --white-50: rgba(255, 255, 255, 0.50);
+      --black: #000;
+      --black-30: rgba(0, 0, 0, 0.30);
+      --black-80: rgba(0, 0, 0, 0.80);
+  
+      /* Gray Colors */
+      --gray-10: #F8F8F8;
+      --gray-20: #F0F0F0;
+      --gray-30: #E8E8E8;
+      --gray-3070: rgba(221, 221, 221, 0.70);
+      --gray-40: #CCCCCC;
+      --gray-50: #BBBBBB;
+      --gray-60: #AAAAAA;
+      --gray-70: #8D8D8D;
+      --gray-80: #7A7A7A;
+      --gray-8070: rgba(119, 119, 119, 0.70);
+      --gray-90: #606060;
+      --gray-100: #222222;
+      --gray-black: #000000;
+  
+      /* Blue Colors */
+      --blue-10: #f4f7fc;
+      --blue-20: #f0f7ff;
+      --blue-30: #e6f7ff;
+      --blue-40: #1ea2ed;
+      --blue-50: #3968de;
+      --blue-5050: rgba(57, 104, 222, 0.50);
+      --blue-60: #3758b9;
+      --blue-70: #2C4E99;
+      --blue-80: #1d3364;
+      --blue-8050: rgba(29, 51, 100, 0.50);
+      --blue-90: #0F2045;
+  
+      /* red Colors */
+      --red-10: #FFF3F0;
+      --red-20: #FA4718;
+      
+      /* Yellow Colors */
+      --yellow-10: #FFECB2;
+      --yellow-20: #FFD44E;
+      --yellow-30: #F5C337;   /* main-color */
+      --yellow-40: #CD9F05;
+      --yellow-4050: rgba(205, 159, 5, 0.50);
+      --yellow-50: #A07C02;
+      --yellow-60: #654E01;
+
+
+      
+      --orange-10: #FFC001;   /* sub-color */
+}
+
+
+
