@@ -1,0 +1,47 @@
+.report-page {
+  width: min(1240px, calc(100% - 24px));
+  margin: 18px auto 0;
+  padding: 18px;
+  border-radius: 18px;
+  border: 1px solid var(--color-line);
+  background: #fff;
+}
+
+.report-page__form {
+  margin-top: 14px;
+  display: grid;
+  gap: 12px;
+}
+
+.report-page__form label {
+  display: grid;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.report-page__form input,
+.report-page__form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #dbe4dc;
+  font: inherit;
+}
+
+.report-page__form input:focus,
+.report-page__form textarea:focus {
+  outline: 2px solid rgba(31, 93, 63, 0.2);
+  border-color: #1f5d3f;
+}
+
+.report-page__submit {
+  height: 42px;
+  border: none;
+  border-radius: 10px;
+  background: #ef830f;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}

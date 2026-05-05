@@ -39,6 +39,7 @@ const RAW_RUNTIME_STATE =
           ["globals", "npm:17.6.0"],\
           ["react", "npm:19.2.5"],\
           ["react-dom", "virtual:d30ac7472a3af265a1d655bfa795e15cb88c28505040e5cb9d7873db84c50f8b01d79d0b73c037f211100add4bd08ece8db16926713483be346af81a1d78df6b#npm:19.2.5"],\
+          ["react-router-dom", "virtual:d30ac7472a3af265a1d655bfa795e15cb88c28505040e5cb9d7873db84c50f8b01d79d0b73c037f211100add4bd08ece8db16926713483be346af81a1d78df6b#npm:7.15.0"],\
           ["vite", "virtual:d30ac7472a3af265a1d655bfa795e15cb88c28505040e5cb9d7873db84c50f8b01d79d0b73c037f211100add4bd08ece8db16926713483be346af81a1d78df6b#npm:8.0.10"]\
         ],\
         "linkType": "SOFT"\
@@ -906,6 +907,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["cookie", [\
+      ["npm:1.1.1", {\
+        "packageLocation": "../.yarn/berry/cache/cookie-npm-1.1.1-881103ddeb-10c0.zip/node_modules/cookie/",\
+        "packageDependencies": [\
+          ["cookie", "npm:1.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["cross-spawn", [\
       ["npm:7.0.6", {\
         "packageLocation": "../.yarn/berry/cache/cross-spawn-npm-7.0.6-264bddf921-10c0.zip/node_modules/cross-spawn/",\
@@ -942,6 +952,7 @@ const RAW_RUNTIME_STATE =
           ["globals", "npm:17.6.0"],\
           ["react", "npm:19.2.5"],\
           ["react-dom", "virtual:d30ac7472a3af265a1d655bfa795e15cb88c28505040e5cb9d7873db84c50f8b01d79d0b73c037f211100add4bd08ece8db16926713483be346af81a1d78df6b#npm:19.2.5"],\
+          ["react-router-dom", "virtual:d30ac7472a3af265a1d655bfa795e15cb88c28505040e5cb9d7873db84c50f8b01d79d0b73c037f211100add4bd08ece8db16926713483be346af81a1d78df6b#npm:7.15.0"],\
           ["vite", "virtual:d30ac7472a3af265a1d655bfa795e15cb88c28505040e5cb9d7873db84c50f8b01d79d0b73c037f211100add4bd08ece8db16926713483be346af81a1d78df6b#npm:8.0.10"]\
         ],\
         "linkType": "SOFT"\
@@ -1873,6 +1884,61 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["react-router", [\
+      ["npm:7.15.0", {\
+        "packageLocation": "../.yarn/berry/cache/react-router-npm-7.15.0-aad005aa8f-10c0.zip/node_modules/react-router/",\
+        "packageDependencies": [\
+          ["react-router", "npm:7.15.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:cd9587e8af4d8a87862102f79999085859cbde182dd5f452099b409837f32cc15b1983d7fed0064484c02574793e7ed144f685c7371277f4e88eda14726e0bba#npm:7.15.0", {\
+        "packageLocation": "./.yarn/__virtual__/react-router-virtual-561ad1812a/2/.yarn/berry/cache/react-router-npm-7.15.0-aad005aa8f-10c0.zip/node_modules/react-router/",\
+        "packageDependencies": [\
+          ["@types/react", "npm:19.2.14"],\
+          ["@types/react-dom", "virtual:d30ac7472a3af265a1d655bfa795e15cb88c28505040e5cb9d7873db84c50f8b01d79d0b73c037f211100add4bd08ece8db16926713483be346af81a1d78df6b#npm:19.2.3"],\
+          ["cookie", "npm:1.1.1"],\
+          ["react", "npm:19.2.5"],\
+          ["react-dom", "virtual:d30ac7472a3af265a1d655bfa795e15cb88c28505040e5cb9d7873db84c50f8b01d79d0b73c037f211100add4bd08ece8db16926713483be346af81a1d78df6b#npm:19.2.5"],\
+          ["react-router", "virtual:cd9587e8af4d8a87862102f79999085859cbde182dd5f452099b409837f32cc15b1983d7fed0064484c02574793e7ed144f685c7371277f4e88eda14726e0bba#npm:7.15.0"],\
+          ["set-cookie-parser", "npm:2.7.2"]\
+        ],\
+        "packagePeers": [\
+          "@types/react-dom",\
+          "@types/react",\
+          "react-dom",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["react-router-dom", [\
+      ["npm:7.15.0", {\
+        "packageLocation": "../.yarn/berry/cache/react-router-dom-npm-7.15.0-80f4b533cd-10c0.zip/node_modules/react-router-dom/",\
+        "packageDependencies": [\
+          ["react-router-dom", "npm:7.15.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:d30ac7472a3af265a1d655bfa795e15cb88c28505040e5cb9d7873db84c50f8b01d79d0b73c037f211100add4bd08ece8db16926713483be346af81a1d78df6b#npm:7.15.0", {\
+        "packageLocation": "./.yarn/__virtual__/react-router-dom-virtual-cd9587e8af/2/.yarn/berry/cache/react-router-dom-npm-7.15.0-80f4b533cd-10c0.zip/node_modules/react-router-dom/",\
+        "packageDependencies": [\
+          ["@types/react", "npm:19.2.14"],\
+          ["@types/react-dom", "virtual:d30ac7472a3af265a1d655bfa795e15cb88c28505040e5cb9d7873db84c50f8b01d79d0b73c037f211100add4bd08ece8db16926713483be346af81a1d78df6b#npm:19.2.3"],\
+          ["react", "npm:19.2.5"],\
+          ["react-dom", "virtual:d30ac7472a3af265a1d655bfa795e15cb88c28505040e5cb9d7873db84c50f8b01d79d0b73c037f211100add4bd08ece8db16926713483be346af81a1d78df6b#npm:19.2.5"],\
+          ["react-router", "virtual:cd9587e8af4d8a87862102f79999085859cbde182dd5f452099b409837f32cc15b1983d7fed0064484c02574793e7ed144f685c7371277f4e88eda14726e0bba#npm:7.15.0"],\
+          ["react-router-dom", "virtual:d30ac7472a3af265a1d655bfa795e15cb88c28505040e5cb9d7873db84c50f8b01d79d0b73c037f211100add4bd08ece8db16926713483be346af81a1d78df6b#npm:7.15.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/react-dom",\
+          "@types/react",\
+          "react-dom",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["rolldown", [\
       ["npm:1.0.0-rc.17", {\
         "packageLocation": "../.yarn/berry/cache/rolldown-npm-1.0.0-rc.17-2b04ad53ae-10c0.zip/node_modules/rolldown/",\
@@ -1920,6 +1986,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../.yarn/berry/cache/semver-npm-7.7.4-746e538da5-10c0.zip/node_modules/semver/",\
         "packageDependencies": [\
           ["semver", "npm:7.7.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["set-cookie-parser", [\
+      ["npm:2.7.2", {\
+        "packageLocation": "../.yarn/berry/cache/set-cookie-parser-npm-2.7.2-e1a4d1221b-10c0.zip/node_modules/set-cookie-parser/",\
+        "packageDependencies": [\
+          ["set-cookie-parser", "npm:2.7.2"]\
         ],\
         "linkType": "HARD"\
       }]\

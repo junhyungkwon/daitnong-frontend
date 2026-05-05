@@ -1,0 +1,30 @@
+#root {
+  min-height: 100vh;
+}
+
+.app-shell {
+  min-height: 100vh;
+  padding-bottom: 110px;
+}
+
+.app-main {
+  width: 100%;
+}
+
+.section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.section-head h2,
+.section-head h3 {
+  margin: 0;
+  line-height: 1.25;
+}
+
+.section-head p {
+  margin: 6px 0 0;
+  color: #63756a;
+}

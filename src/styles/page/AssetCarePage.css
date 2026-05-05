@@ -1,0 +1,56 @@
+.asset-care-page {
+  width: min(1240px, calc(100% - 24px));
+  margin: 18px auto 0;
+  padding: 18px;
+  border-radius: 18px;
+  border: 1px solid var(--color-line);
+  background: #fff;
+}
+
+.asset-care-list {
+  margin-top: 14px;
+  display: grid;
+  gap: 10px;
+}
+
+.asset-care-card {
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #e5eee4;
+  background: #fbfdfb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.asset-care-card h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.asset-care-card p {
+  margin: 5px 0 0;
+  color: #6d7f74;
+}
+
+.status-pill {
+  border-radius: 999px;
+  padding: 7px 11px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.status-pill.normal {
+  background: #e8f5ed;
+  color: #2d7a51;
+}
+
+.status-pill.warning {
+  background: #fff5e8;
+  color: #b06a17;
+}
+
+.status-pill.danger {
+  background: #ffecef;
+  color: #bd2f4f;
+}
